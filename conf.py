@@ -4,6 +4,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 
+from ipaddress import collapse_addresses
 import sys
 import os
 
@@ -34,6 +35,13 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
+html_logo = 'images/logo.png'
+
 html_static_path = ['_static']
+
+html_theme_options = {
+    'collapse_navigation' : False
+}
+
 def setup(app):
     app.add_stylesheet("css/custom.css")

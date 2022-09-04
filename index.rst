@@ -3,12 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-###########################
-gdscript2rest documentation
-###########################
-
+############
 Introduction
-============
+############
 
 The utility gdscript2rest was written so that gdscript API comments can be converted to
 reStructuredText format for including in documentation.
@@ -56,11 +53,11 @@ The following sections are provided to take you through the full setting up and 
   - Using gdscript2rest to create the reStructuredText files
 
 
-
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Contents:
+
+   index
 
 .. toctree:: 
   :maxdepth: 2
