@@ -1,6 +1,4 @@
-#########################
-Instructions
-#########################
+.. instructions for installing the python environment
 
 Python
 ======
@@ -18,14 +16,16 @@ how to do it then the following taken from the Python website should be followed
     `BeginnersGuide/Download <http://wiki.python.org/moin/BeginnersGuide/Download>`_ 
     wiki page, but installation is unremarkable on most platforms.
 
-Godot
-=====
+.. _pip_install:
 
-If you are using this program then I assume you have Godot installed and are familiar with it!
-But, just in case, installation instructions can be found at 
-`Godot Download Page <https://godotengine.org/download>`_
+Pip
+===
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :name: sec-instructions
+Pip is the package management system used throughout this guide.  It is not unusual for it 
+to be installed when python is installed but if not then the installation and usage instructions can
+be found at https://pip.pypa.io/en/stable/
+
+.. note::
+
+    Pip is not the only package manager for python, two good alternatives I have used in the 
+    past being `Conda <https://conda.pydata.org/>`_ and `Poetry <https://python-poetry.org/>`_. 

@@ -21,6 +21,8 @@ with the gdscript2rest utility.
       - Function
     * - python 3.7+
       - Build environment
+    * - Pip
+      - package installer
     * - Godot 3.2
       - What it's all about
     * - gdscript2rest
