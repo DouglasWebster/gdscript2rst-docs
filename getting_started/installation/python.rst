@@ -73,7 +73,7 @@ If you now enter ``pip list`` you should see a minimal listing containing `pip` 
         
         ``deactivate``
 
-A more in depth discussion regarding the rationale for using virtual environments as well as more
+An in depth discussion regarding the rationale for using virtual environments as well as more
 detailed instructions can be found at `Installing packages using pip and virtual environments 
 <https://packaging.python.org/en/latest/guides/
 installing-using-pip-and-virtual-environments/#creating-a-virtual-environment>`_
