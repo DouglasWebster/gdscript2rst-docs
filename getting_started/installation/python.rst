@@ -42,7 +42,7 @@ Virtual environments
 
 Many tools for managing Python development maintain virtual environments as a mater of course, for
 example the two mentioned above `Conda <https://conda.io/>`_ and `Poetry <https://python-poetry.org/>`_.
-These however may be overkill for the needs of a Godot game developer who in only using Python to
+These however may be overkill for the needs of a Godot game developer who is only using Python to
 document her code.  In this case Python can be invoked to create a virtual environment for itself.
 
 The following steps are all that is needed:
@@ -53,12 +53,12 @@ The following steps are all that is needed:
 
         ``python -m venv <your-environment-name>``
 
-        this will create a new director called whatever you chose for your-environment-name and
-        populate it with the minimum required to start a python project - usually `pip` and
-        `setuptools`.
+this will create a new director called whatever you chose for your-environment-name and
+populate it with the minimum required to start a python project - usually `pip` and
+`setuptools`.
 
-        However, if you enter  ``pip list`` at this point you will probably see the complete listing
-        of the `system` python environment as your new virtual environment hasn't been activated.
+However, if you enter  ``pip list`` at this point you will probably see the complete listing
+of the `system` python environment as your new virtual environment hasn't been activated.
 
     * to activate your new environment type
 
@@ -67,8 +67,7 @@ The following steps are all that is needed:
             ``<your-environment-name>/Scripts/activate.bat`` (windows CMD prompt)
             ``<your-environment-name>/Scripts/Activate.ps1`` (windows Powershell)  
 
-        If you now enter ``pip list`` you should see a minimal listing containing `pip` and
-        `setuptools`
+If you now enter ``pip list`` you should see a minimal listing containing `pip` and `setuptools`
 
     * to leave a virtual environment simply run:
         
