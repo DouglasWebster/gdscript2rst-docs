@@ -12,8 +12,9 @@ the first three items are required.
 .. warning:: 
 
    Many of the following instructions deal with installing python modules.  Depending on which
-   python package manager you use (see :ref:`pip_install`) without configuring your project is
-   probably not the best thing to do.  If you install from a newly opened terminal or cmd window
+   python package manager you use (see :ref:`pip_install`) installing modules without 
+   configuring your project is probably not the best thing to do.  
+   If you install from a newly opened terminal or cmd window
    then the module could be inserted globally. For python projects it is strongly recommended to
    use virtual environments which will be covered later in this document.
 
