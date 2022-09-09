@@ -29,3 +29,52 @@ be found at https://pip.pypa.io/en/stable/
 
     Pip is not the only package manager for python, two good alternatives I have used in the 
     past being `Conda <https://conda.pydata.org/>`_ and `Poetry <https://python-poetry.org/>`_. 
+
+Virtual environments
+====================
+
+.. admonition:: From the python docs
+    
+    A virtual environment is a Python environment such that the Python interpreter, 
+    libraries and scripts installed into it are isolated from those installed in other
+    virtual environments, and (by default) any libraries installed in a “system” Python, 
+    i.e., one which is installed as part of your operating system.
+
+Many tools for managing Python development maintain virtual environments as a mater of course, for
+example the two mentioned above `Conda <https://conda.io/>`_ and `Poetry <https://python-poetry.org/>`_.
+These however may be overkill for the needs of a Godot game developer who is only using Python to
+document her code.  In this case Python can be invoked to create a virtual environment for itself.
+
+The following steps are all that is needed:
+
+    * Open a terminal window (linux/mac) or cmd prompt (windows)
+    * Change into the directory where your project is to be created.
+    * enter the following command
+
+        ``python -m venv <your-environment-name>``
+
+this will create a new director called whatever you chose for your-environment-name and
+populate it with the minimum required to start a python project - usually `pip` and
+`setuptools`.
+
+However, if you enter  ``pip list`` at this point you will probably see the complete listing
+of the `system` python environment as your new virtual environment hasn't been activated.
+
+    * to activate your new environment type
+
+        .. line-block:: 
+            ``source  <your-environment-name>/bin/activate`` (linux/mac)
+            ``<your-environment-name>/Scripts/activate.bat`` (windows CMD prompt)
+            ``<your-environment-name>/Scripts/Activate.ps1`` (windows Powershell)  
+
+If you now enter ``pip list`` you should see a minimal listing containing `pip` and `setuptools`
+
+    * to leave a virtual environment simply run:
+        
+        ``deactivate``
+
+An in depth discussion regarding the rationale for using virtual environments as well as more
+detailed instructions can be found at `Installing packages using pip and virtual environments 
+<https://packaging.python.org/en/latest/guides/
+installing-using-pip-and-virtual-environments/#creating-a-virtual-environment>`_
+
