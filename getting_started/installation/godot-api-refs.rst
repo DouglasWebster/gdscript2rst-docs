@@ -1,10 +1,10 @@
-.. instructions for installing the godot-api-refs utility
+.. instructions for installing the Godot-api-refs utility
 
 godot-api-refs
 ==============
 
-This small utility is used to interrogate the stable branch of godot and extract links to the
-godot help API's.  The links are stored as a .json file in the current working directory.
+This small utility is used to interrogate the stable branch of Godot and extract links to the
+Godot help API's.  The links are stored as a .json file in the current working directory.
 
 The godot-api-refs homepage can be found at:
 

@@ -19,6 +19,7 @@ The documentation is organized into the following sections:
   
   getting_started/intro/index
   getting_started/installation/index
+  api_creation/index
 
 
 

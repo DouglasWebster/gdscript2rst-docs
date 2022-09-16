@@ -13,7 +13,7 @@ with the gdscript2rest utility.
 
 
 .. list-table:: Requirements
-    :widths: 20 20
+    :widths: 20 50
     :header-rows: 1
     :class: tight-table
 
