@@ -47,7 +47,7 @@ document her code.  In this case Python can be invoked to create a virtual envir
 
 The following steps are all that is needed:
 
-    * Open a terminal window (linux/mac) or cmd prompt (windows)
+    * Open a terminal window (linux/macOS) or cmd prompt (windows)
     * Change into the directory where your project is to be created.
     * enter the following command
 
