@@ -163,115 +163,119 @@ Example Script file
         pass
 
 
-The above will generate the following restructuredText page:
 
-.. _class_CharacterBaseClass:
+Example reStructuredText file
+-----------------------------
 
-CharacterBaseClass
-==================
+.. admonition:: Sample reStructuredText output
+    
+    .. _class_CharacterBaseClass:
 
-**Extends:** :godot_class:`KinematicBody2D <kinematicbody2d>`
+    CharacterBaseClass
+    ==================
 
-Description
------------
+    **Extends:** :godot_class:`KinematicBody2D <kinematicbody2d>`
 
-The following class is the base class for all the characters in the game.
+    Description
+    -----------
 
-.. warning:: Creating a character from this base class will   result in an unusable character as there are no movement   actions defined in the base.
+    The following class is the base class for all the characters in the game.
 
-The class defines the minimum attributes that are common to all characters and all the other types of characters should be inherited from this base class. 
+    .. warning:: Creating a character from this base class will   result in an unusable character as there are no movement   actions defined in the base.
 
-Properties
-----------
+    The class defines the minimum attributes that are common to all characters and all the other types of characters should be inherited from this base class. 
 
-+--+-----------------------------------------------------------------------------+------------------------------+-------+
-|  | :ref:`character_health<class_CharacterBaseClass_property_character_health>` | :godot_class:`float <float>` |       |
-+--+-----------------------------------------------------------------------------+------------------------------+-------+
-|  | :ref:`health<class_CharacterBaseClass_property_health>`                     | :godot_class:`float <float>` |       |
-+--+-----------------------------------------------------------------------------+------------------------------+-------+
+    Properties
+    ----------
 
-Methods
--------
+    +--+-----------------------------------------------------------------------------+------------------------------+-------+
+    |  | :ref:`character_health<class_CharacterBaseClass_property_character_health>` | :godot_class:`float <float>` |       |
+    +--+-----------------------------------------------------------------------------+------------------------------+-------+
+    |  | :ref:`health<class_CharacterBaseClass_property_health>`                     | :godot_class:`float <float>` |       |
+    +--+-----------------------------------------------------------------------------+------------------------------+-------+
 
-+----------------------------------------------------------------------------------------------------------------------------------+----------------------------+
-| :ref:`ready<class_CharacterBaseClass_method_ready>` **(**  **)**                                                                 | var                        |
-+----------------------------------------------------------------------------------------------------------------------------------+----------------------------+
-| :ref:`am_i_stronger<class_CharacterBaseClass_method_am_i_stronger>` **(** opponents_strength: :godot_class:`float <float>` **)** | :godot_class:`bool <bool>` |
-+----------------------------------------------------------------------------------------------------------------------------------+----------------------------+
-| :ref:`do_nothing<class_CharacterBaseClass_method_do_nothing>` **(**  **)**                                                       | void                       |
-+----------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+    Methods
+    -------
 
-Signals
--------
+    +----------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+    | :ref:`ready<class_CharacterBaseClass_method_ready>` **(**  **)**                                                                 | var                        |
+    +----------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+    | :ref:`am_i_stronger<class_CharacterBaseClass_method_am_i_stronger>` **(** opponents_strength: :godot_class:`float <float>` **)** | :godot_class:`bool <bool>` |
+    +----------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+    | :ref:`do_nothing<class_CharacterBaseClass_method_do_nothing>` **(**  **)**                                                       | void                       |
+    +----------------------------------------------------------------------------------------------------------------------------------+----------------------------+
 
-.. _class_CharacterBaseClass_signal_state_changed:
+    Signals
+    -------
 
-_ **state_changed** **(**  **)**
+    .. _class_CharacterBaseClass_signal_state_changed:
 
-Let anyone who is interested know when this character changes state 
+    _ **state_changed** **(**  **)**
 
-Enumerations
-------------
+    Let anyone who is interested know when this character changes state 
 
-.. _enum_CharacterBaseClass_CHARACTER_STATE:
+    Enumerations
+    ------------
 
-.. _class_CharacterBaseClass_constant_ALIVE:
+    .. _enum_CharacterBaseClass_CHARACTER_STATE:
 
-.. _class_CharacterBaseClass_constant_DEAD:
+    .. _class_CharacterBaseClass_constant_ALIVE:
 
-.. _class_CharacterBaseClass_constant_LIMBO:
+    .. _class_CharacterBaseClass_constant_DEAD:
 
-enum **CHARACTER_STATE** :
+    .. _class_CharacterBaseClass_constant_LIMBO:
 
-- **ALIVE** = **0**
-- **DEAD** = **1**
-- **LIMBO** = **2**
+    enum **CHARACTER_STATE** :
 
-A character can be in one of three states - it is fantasy after all! 
+    - **ALIVE** = **0**
+    - **DEAD** = **1**
+    - **LIMBO** = **2**
 
-Constants
----------
+    A character can be in one of three states - it is fantasy after all! 
 
-.. _class_CharacterBaseClass_constant_MAX_HEALTH:
+    Constants
+    ---------
 
-- **MAX_HEALTH** :float = **150** --- Normally health will not go above 100% but certain potions and spells could override this. The override is not allowed to go too high though 
+    .. _class_CharacterBaseClass_constant_MAX_HEALTH:
 
-Property Descriptions
----------------------
+    - **MAX_HEALTH** :float = **150** --- Normally health will not go above 100% but certain potions and spells could override this. The override is not allowed to go too high though 
 
-.. _class_CharacterBaseClass_property_character_health:
+    Property Descriptions
+    ---------------------
 
-- **character_health** : :godot_class:`float <float>`
+    .. _class_CharacterBaseClass_property_character_health:
 
-----
+    - **character_health** : :godot_class:`float <float>`
 
-.. _class_CharacterBaseClass_property_health:
+    ----
 
-- **health** : :godot_class:`float <float>`
+    .. _class_CharacterBaseClass_property_health:
 
-The characters actual health normally starts at 100% 
+    - **health** : :godot_class:`float <float>`
 
-Method Descriptions
--------------------
+    The characters actual health normally starts at 100% 
 
-.. _class_CharacterBaseClass_method_ready:
+    Method Descriptions
+    -------------------
 
-- METHOD **ready(**  **)** -> var
+    .. _class_CharacterBaseClass_method_ready:
 
-but all non virtual functions are listed out. 
+    - METHOD **ready(**  **)** -> var
 
-----
+    but all non virtual functions are listed out. 
 
-.. _class_CharacterBaseClass_method_am_i_stronger:
+    ----
 
-- METHOD **am_i_stronger(** opponents_strength: :godot_class:`float <float>` **)** -> :godot_class:`bool <bool>`
+    .. _class_CharacterBaseClass_method_am_i_stronger:
 
-The function documentation will list all parameters with their respective types if known. It will also list the return type as well if there is one. 
+    - METHOD **am_i_stronger(** opponents_strength: :godot_class:`float <float>` **)** -> :godot_class:`bool <bool>`
 
-----
+    The function documentation will list all parameters with their respective types if known. It will also list the return type as well if there is one. 
 
-.. _class_CharacterBaseClass_method_do_nothing:
+    ----
 
-- METHOD **do_nothing(**  **)** -> void
+    .. _class_CharacterBaseClass_method_do_nothing:
 
-And this comment doesn't get reported either but the function will, just without an explanation! 
+    - METHOD **do_nothing(**  **)** -> void
+
+    And this comment doesn't get reported either but the function will, just without an explanation! 
