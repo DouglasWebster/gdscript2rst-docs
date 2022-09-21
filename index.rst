@@ -13,13 +13,14 @@ for the creation of API documentation for Godot projects.
 The documentation is organized into the following sections:
 
 .. toctree:: 
-  :maxdepth: 2
+  :maxdepth: 1
   :caption: Getting started
   :name: sec-learn
   
   getting_started/intro/index
   getting_started/installation/index
   api_creation/index
+  sphinx_primer/index
 
 
 

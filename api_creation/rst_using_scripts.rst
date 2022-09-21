@@ -25,7 +25,7 @@ they have done their job will delete them.
 
         This should be invoked as follows:
         
-        ``generate_reference $project_directory [options]``
+        ``$ generate_reference $project_directory [options]``
 
         ``&project_directory`` is the location of the Godot project.  This location can be either absolute
         or relative to the current working directory.  The Godot project directory should have a godot_project file
@@ -67,7 +67,7 @@ they have done their job will delete them.
 
         Usage example: 
 
-            ``generate_reference ~/godot-projects/my-new-game/
+            ``$ generate_reference ~/godot-projects/my-new-game/
             -o docs/source/api/addons -d addons -i -v --doc-version 0.1.5``
 
         This command

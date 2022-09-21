@@ -20,7 +20,7 @@ repository and highlights why it is favoured.
     can work with any Sphinx project. You can find a working demo of the theme in the 
     `theme documentation <https://sphinx-rtd-theme.readthedocs.io/en/stable/>`_
 
-This is installed by ``pip install sphinx-rtd-theme``
+This is installed by ``$ pip install sphinx-rtd-theme``
 
 sphinx-notfound-page
 --------------------
@@ -28,7 +28,7 @@ sphinx-notfound-page
 This extension creates a custom 404 page with absolute URL's hardcoded.  Documentation can be
 found at `<https://sphinx-notfound-page.readthedocs.io/>`_ 
 
-The extension is installed by ``pip install sphinx-notfound-page`` 
+The extension is installed by ``$ pip install sphinx-notfound-page`` 
 
 sphinx-tabs
 -----------
@@ -36,7 +36,7 @@ sphinx-tabs
 This extension creates tabbed content in `Sphinx documentation <http://www.sphinx-doc.org/>`_.
 Documentation can be found at `Sphinx Tabs <https://sphinx-tabs.readthedocs.io/en/latest/>`_
 
-The extension is installed by ``pip install sphinx-tabs`` 
+The extension is installed by ``$ pip install sphinx-tabs`` 
 
 .. caution::
     

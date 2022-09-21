@@ -17,7 +17,7 @@ and the python package is at:
 
 As with godot2rest the program is installed by simply typing
 
-``pip install godot-api-refs``
+``$ pip install godot-api-refs``
 
 .. caution::
     

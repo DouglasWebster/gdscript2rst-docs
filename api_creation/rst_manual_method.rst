@@ -91,7 +91,9 @@ In this case the files ``Collector.gd`` and ``ReferenceCollectorCLI.gd`` should 
 
 Using a terminal or cmd window change to the project directory then enter:
 
-``godot --editor --quit --script --no-window ReferenceCollectorCLI.gd``
+.. code:: console
+
+  $ godot --editor --quit --script --no-window ReferenceCollectorCLI.gd
 
 This will start the godot editor, run the ``ReferenceCollectorCLI`` script, then quit.
 
@@ -133,7 +135,9 @@ It will create a separate *.rst* file for each class found in the *.json* file.
 
 The program is invoked with:
 
-``gdscript2rest [-h] [-p PATH] [-i] [-v] [--dry-run] [-V] files [files ...]``
+.. code:: console
+  
+  $ gdscript2rest [-h] [-p PATH] [-i] [-v] [--dry-run] [-V] files [files ...]
 
 It expects at least 1 ``files`` path to find the JSON data but can have multiple ``files`` paths if required.
 

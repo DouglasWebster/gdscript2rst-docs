@@ -51,7 +51,7 @@ The following steps are all that is needed:
     * Change into the directory where your project is to be created.
     * enter the following command
 
-        ``python -m venv <your-environment-name>``
+        ``$ python -m venv <your-environment-name>``
 
 this will create a new director called whatever you chose for your-environment-name and
 populate it with the minimum required to start a python project - usually `pip` and
@@ -63,15 +63,15 @@ of the `system` python environment as your new virtual environment hasn't been a
     * to activate your new environment type
 
         .. line-block:: 
-            ``source  <your-environment-name>/bin/activate`` (linux/mac)
-            ``<your-environment-name>/Scripts/activate.bat`` (windows CMD prompt)
-            ``<your-environment-name>/Scripts/Activate.ps1`` (windows Powershell)  
+            ``$ source  <your-environment-name>/bin/activate`` (linux/mac)
+            ``$ <your-environment-name>/Scripts/activate.bat`` (windows CMD prompt)
+            ``$ <your-environment-name>/Scripts/Activate.ps1`` (windows Powershell)  
 
-If you now enter ``pip list`` you should see a minimal listing containing `pip` and `setuptools`
+If you now enter ``$ pip list`` you should see a minimal listing containing `pip` and `setuptools`
 
     * to leave a virtual environment simply run:
         
-        ``deactivate``
+        ``$ deactivate``
 
 An in depth discussion regarding the rationale for using virtual environments as well as more
 detailed instructions can be found at `Installing packages using pip and virtual environments 

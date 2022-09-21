@@ -17,7 +17,7 @@ and the python package is at:
 Installing gdscript2rest is relatively simple once Pip is installed.  All that is required is to open
 up either a command prompt (windows) or a terminal (linux/mac) and enter 
 
-``pip install gdscript2rest``
+``$ pip install gdscript2rest``
 
 .. caution::
     

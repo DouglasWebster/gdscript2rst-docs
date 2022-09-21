@@ -20,7 +20,7 @@ As with the other python modules installation is simple once if you are happy wi
 setup.  All that is required is to open up either a command prompt (windows) or a terminal 
 (linux/macOS) and enter 
 
-``pip install sphinx``
+``$ pip install sphinx``
 
 .. caution::
     
