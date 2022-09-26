@@ -23,6 +23,7 @@ the first three items are required.
 
    python
    godot
+   scripts
    godot2rst
    godot-api-refs
    sphinx
