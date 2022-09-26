@@ -28,7 +28,7 @@ be found at https://pip.pypa.io/en/stable/
 .. note::
 
     Pip is not the only package manager for python, two good alternatives I have used in the 
-    past being `Conda <https://conda.pydata.org/>`_ and `Poetry <https://python-poetry.org/>`_. 
+    past being `Conda <https://docs.conda.io/en/latest/>`_ and `Poetry <https://python-poetry.org/>`_. 
 
 Virtual environments
 ====================
@@ -41,7 +41,7 @@ Virtual environments
     i.e., one which is installed as part of your operating system.
 
 Many tools for managing Python development maintain virtual environments as a mater of course, for
-example the two mentioned above `Conda <https://conda.io/>`_ and `Poetry <https://python-poetry.org/>`_.
+example the two mentioned above `Conda <https://docs.conda.io/en/latest/>`_ and `Poetry <https://python-poetry.org/>`_.
 These however may be overkill for the needs of a Godot game developer who is only using Python to
 document her code.  In this case Python can be invoked to create a virtual environment for itself.
 
