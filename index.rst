@@ -21,6 +21,7 @@ The documentation is organized into the following sections:
   getting_started/installation/index
   api_creation/index
   sphinx_primer/index
+  appendix/index
 
 
 
