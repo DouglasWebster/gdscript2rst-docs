@@ -64,8 +64,8 @@ of the `system` python environment as your new virtual environment hasn't been a
 
         .. line-block:: 
             ``$ source  <your-environment-name>/bin/activate`` (linux/mac)
-            ``$ <your-environment-name>/Scripts/activate.bat`` (windows CMD prompt)
-            ``$ <your-environment-name>/Scripts/Activate.ps1`` (windows Powershell)  
+            ``> <your-environment-name>/Scripts/activate.bat`` (windows CMD prompt)
+            ``ps > <your-environment-name>/Scripts/Activate.ps1`` (windows Powershell)  
 
 If you now enter ``$ pip list`` you should see a minimal listing containing `pip` and `setuptools`
 
